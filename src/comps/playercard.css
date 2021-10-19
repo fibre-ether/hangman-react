@@ -1,0 +1,16 @@
+.player-card-top {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    top: 0;
+  }
+  
+  .player-card-bottom {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    bottom: 0;
+  }
+  

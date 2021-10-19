@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-
+import './playercard.css';
 function Playercard(props) {
     return (
         <div>
@@ -12,8 +12,8 @@ function Playercard(props) {
             >
                 {props.position==="bottom"?<Card.Header><strong>{props.name}</strong></Card.Header>:null}
                 <Card.Body>
-                <Card.Text>
-                    {props.desc}
+                <Card.Text className="player-card-text">
+                    Guesses: {props.desc}
                 </Card.Text>
                 </Card.Body>
                 {props.position==="top"?<Card.Header><strong>{props.name}</strong></Card.Header>:null}

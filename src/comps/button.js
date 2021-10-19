@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
+import './button.css';
 
 function LetterButton(props) {
     const [showToggle, setShowToggle] = useState(false);
@@ -8,8 +9,8 @@ function LetterButton(props) {
         <>
             <Button 
             className="letter-buttons" 
-            onClick={() => {setShowToggle(!showToggle);
-                            props.onPressed(props.display)
+            onClick={(e) => {setShowToggle(!showToggle);
+                            props.onPressed(e, props.display)
                             //console.log(showToggle)
                             }
                     } 

@@ -1,0 +1,19 @@
+.ans-text-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+.ans-text-body {
+    min-width: 250px;
+  }
+  
+.ans-text {
+    display: flex;
+    justify-content: center;
+    min-width: 100px;
+  }
+  
+.ans-letters {
+    margin-right: 10px;
+  }

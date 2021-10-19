@@ -1,34 +1,4 @@
-.letter-buttons-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 
-}
 
-.letter-buttons {
-  width: auto;
-  margin-right: 10px;
-}
 
-.player-card-top {
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  width: 100vw;
-  top: 0;
-}
 
-.player-card-bottom {
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  width: 100vw;
-  bottom: 0;
-}
-
-.ans-text-box{
-  min-width: 200px;
-  margin-bottom: 20px;
-}
