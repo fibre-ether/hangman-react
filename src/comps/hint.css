@@ -1,0 +1,42 @@
+.hint-div {
+    display: flex;
+    justify-content: center;
+    max-width: 30vw;
+}
+
+.description {
+    position: fixed;
+    margin: 0 0 20vh 10vw;
+    bottom: 0;
+    transform:translateX(-25%);
+    transform:translateY(25%);
+}
+
+.sentence {
+    position: fixed ;
+    margin: 0 10vw 20vh 0;
+    bottom: 0;
+    right: 0;
+    transform:translateX(25%);
+    transform:translateY(25%);
+}
+
+.hint-title {
+    display: flex;
+    justify-content: center;
+}
+
+.hint-head {
+    display: flex;
+    justify-content: center;
+}
+
+.hint-text {
+    display: flex;
+    justify-content: center;
+}
+
+.ans-button-div {
+    display: flex;
+    justify-content: center;
+}

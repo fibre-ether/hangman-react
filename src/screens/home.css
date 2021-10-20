@@ -1,0 +1,19 @@
+.cara{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.car-text {
+    position: absolute;
+    top: 38vh;
+}
+
+.home-card-bodys {
+    position: relative;
+}
+
+.carousel {
+    height: 100vh;
+    overflow:hidden;
+}

@@ -11,6 +11,12 @@
     display: flex;
     justify-content: center;
     width: 100vw;
-    bottom: 0;
+    bottom: 10px;
+  }
+
+  .player-card-text {
+    display: flex;
+    justify-content: center;
+    text-overflow: ellipsis;
   }
   

@@ -10,13 +10,13 @@ function Playercard(props) {
             style={{ width: '18rem' }}
             className="mb-0"
             >
-                {props.position==="bottom"?<Card.Header><strong>{props.name}</strong></Card.Header>:null}
+                {props.position==="bottom"?<Card.Header className="player-card-text" ><strong>{props.name}</strong></Card.Header>:null}
                 <Card.Body>
                 <Card.Text className="player-card-text">
-                    Guesses: {props.desc}
+                    Wrong guesses left: {props.desc}
                 </Card.Text>
                 </Card.Body>
-                {props.position==="top"?<Card.Header><strong>{props.name}</strong></Card.Header>:null}
+                {props.position==="top"?<Card.Header className="player-card-text"><strong>{props.name}</strong></Card.Header>:null}
             </Card>
         </div>
     );

@@ -1,9 +1,16 @@
-.letter-buttons-div {
+.ans-buttons-div {
+    position: fixed;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 100vh;
-  
+    width: 100vw;
+    margin-top: 20px;
+  }
+
+  .buttons-div {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   

@@ -8,7 +8,7 @@ function LetterButton(props) {
     return (
         <>
             <Button 
-            className="letter-buttons" 
+            className="letter-buttons " 
             onClick={(e) => {setShowToggle(!showToggle);
                             props.onPressed(e, props.display)
                             //console.log(showToggle)
