@@ -18,7 +18,6 @@ function ModalForm(props) {
           keyboard={false}
         >
           <Modal.Header closeButton>
-            <Modal.Title>Modal title</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <Form onSubmit={(e) => {props.handleClose(e,playerName)}}>

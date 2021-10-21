@@ -1,5 +1,9 @@
 .letter-buttons {
     width: auto;
     margin-right: 1vw;
+    border-top: 0;
+    border-left: 0;
+    border-width: 3px;
+    border-color: rgb(151, 133, 255);
   }
   

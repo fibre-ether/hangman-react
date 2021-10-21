@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -6,9 +6,6 @@ import Game from './screens/game';
 import Home from './screens/home';
 
 function App() {
-  useEffect(() => {
-    console.log("started"); 
-  }, []);
   
 
   return(
